@@ -1,0 +1,21 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "me.pepperbell.continuity.client.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "target": "@env(DEFAULT)",
+  "client": [
+    "FallingBlockEntityRendererMixin",
+    "ModelBakeryAccessor",
+    "ModelBakeryMixin",
+    "ModelLoaderMixin",
+    "ModelManagerMixin",
+    "SimpleReloadableResourceManagerMixin",
+    "SpriteAtlasTextureMixin",
+    "TextureAtlasSpriteMixin",
+    "TileEntityPistonRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
